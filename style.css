@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #34D399;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: blanchedalmond;
+}
+
+/* main */
+
+main {
+  text-align: center;
+  margin: 3rem;
+}
+
+h1 {
+  margin: 2rem;
+  margin-bottom: 5rem;
+}
+
+.input-label {
+  display: block;
+  font-size: x-large;
+  font-weight: 600;
+ 
+}
+
+.input {
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#show-btn {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+#result {
+  font-size: x-large;
+  margin: 2rem 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
