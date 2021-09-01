@@ -172,6 +172,8 @@ function reverseString(str) {
   var resultDiv = document.querySelector("#result");
   
   function clickHandler(e) {
+
+
     var bdayString = bdayInput.value;
   
     if (bdayString !== "") {
@@ -190,9 +192,6 @@ function reverseString(str) {
       var list = checkPalindromeForAllDateFormats(dateStr);
       var isPalindrome = false;
 
-    //   if(!dateStr.value){
-    //     resultDiv.innerText = "Please enter your Birthdate";
-    //   }
 
   
       for (let i = 0; i < list.length; i++) {
@@ -212,7 +211,7 @@ function reverseString(str) {
           resultDiv.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr1} days.`;
         }
       } else {
-        resultDiv.innerText = "Yay! Your birthday is palindrome!";
+        resultDiv.innerText = "Yay! Your birthday is palindrome! 🥳 🥳";
       }
     }
   }
